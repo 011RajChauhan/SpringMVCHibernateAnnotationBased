@@ -11,7 +11,7 @@
     <body>
         <div align="center">
             <h1>Users List</h1>
-            <h2><a href="/SpringMVCHibernateAnnotationBased//new">New User</a></h2>
+            <h2><a href="/SpringMVCHibernateAnnotationBased/new">New User</a></h2>
              
             <table border="1">
                 <th>No</th>
@@ -25,7 +25,7 @@
                     <td>${user.username}</td>
                     <td>${user.email}</td>
                     <td>
-                        <a href="/edit?id=${user.id}">Edit</a>
+                        <a href="/SpringMVCHibernateAnnotationBased/edit?id=${user.id}">Edit</a>
                         &nbsp;&nbsp;&nbsp;&nbsp;
                         <a href="/SpringMVCHibernateAnnotationBased/delete?id=${user.id}">Delete</a>
                     </td>
